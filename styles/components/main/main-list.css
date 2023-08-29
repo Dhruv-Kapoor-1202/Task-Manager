@@ -1,0 +1,12 @@
+.main-list {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.main-left {
+  flex: 5;
+}
+
+.main-right {
+  flex: 4;
+}

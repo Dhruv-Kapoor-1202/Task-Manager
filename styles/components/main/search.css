@@ -1,0 +1,29 @@
+.search {
+  display: flex;
+
+}
+
+.search>* {
+  flex: 1;
+}
+
+.search-input {
+  /* background-color: blue; */
+  /* position: relative; */
+  /* padding: 1em; */
+}
+
+.search input {
+  border: none;
+  outline: none;
+
+  border: 1px solid var(--black);
+  border-radius: 5px;
+
+  padding: 1em;
+}
+
+/* .search label {
+  position: absolute;
+
+} */
