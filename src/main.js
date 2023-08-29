@@ -31,7 +31,7 @@ const newTaskForm = document.querySelector('[data-new-task-form]')
 const newTaskInput = document.querySelector('[data-new-task-input]')
 const clearCompleteTasksButton = document.querySelector('[data-clear-complete-tasks-button]')
 
-const LOCAL_STORAGE_LIST_KEY = 'task.lists'
+const LOCAL_STORAGE_LIST_KEY = 'task.lists'   // Naming Convention
 const LOCAL_STORAGE_SELECT_LIST_ID_KEY = 'task.selectedListId'
 let lists = JSON.parse(localStorage.getItem(LOCAL_STORAGE_LIST_KEY)) || [];
 let selectedListId = localStorage.getItem(LOCAL_STORAGE_SELECT_LIST_ID_KEY)
