@@ -67,7 +67,7 @@ deleteListButton.addEventListener("click", e => {
 
 newListForm.addEventListener('submit', e => {
   e.preventDefault();
-  const listName = newListInput.value
+  const listName = newListInput.value.trim();
   if (listName == null || listName === '') return
   const list = createList(listName)
   newListInput.value = null
@@ -77,7 +77,7 @@ newListForm.addEventListener('submit', e => {
 
 newTaskForm.addEventListener('submit', e => {
   e.preventDefault();
-  const taskName = newTaskInput.value
+  const taskName = newTaskInput.value.trim();
   if (taskName == null || taskName === '') return
   const task = createTask(taskName)
   newTaskInput.value = null
